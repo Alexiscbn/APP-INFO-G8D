@@ -35,7 +35,7 @@
         <form method="post" action="traitement.php"><br>
             <label>
                 <br><input type="checkbox" id="validation" value="checkbox1">
-                Veuillez accepter les conditions générales d'utilisation, consultables en cliquant <a href="#">ici</a> :<br />
+                Veuillez accepter les conditions générales d'utilisation, consultables en cliquant <a href="CGV.php">ici</a> :<br />
             </label>
         </form>
     </div>
