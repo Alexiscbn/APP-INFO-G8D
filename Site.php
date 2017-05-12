@@ -23,7 +23,7 @@
         <label>Nom d'utilisateur</label> : <input type="text" name="Identifiant" />
         </br><label for="pass"> Mot de passe :</label>
         <input type="password" name="Mot de passe" />
-    </div>
+
     </br>
     <input type="button" value="Connexion">
     <a href="Inscription.html">
@@ -31,6 +31,7 @@
     </br><input type="button" value="Aide">
     </br><input type="button" value="Contactez-nous">
     </p>
+</div>
 </form>
 
 <p>Faire un petit paragraphe de présentation de ConnectUs</p>
