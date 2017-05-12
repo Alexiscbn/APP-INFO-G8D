@@ -26,13 +26,14 @@
         <input type="password" name="Mot de passe" />
 
     </br>
+        <a href="Accueil.php"><input type="button" value="Connexion"></a>
     <input type="button" value="Connexion">
         <a href="Inscription.php"><input type="button" value="S'inscrire"></a>
 
     </br><input type="button" value="Aide">
     </br><input type="button" value="Contactez-nous">
 
-</div>
+    </div>
 </form>
 
 <p>Faire un petit paragraphe de présentation de ConnectUs</p>
