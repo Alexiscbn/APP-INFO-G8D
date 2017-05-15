@@ -14,3 +14,16 @@
     </ul>
 </nav>
 
+<div id="mes_photos">
+    <p><img src="Capteur_fumée.png" width="100px" alt="Capteur" />
+        <img src="Capteur_fenêtre.png" width="100px" alt="Capteur" />
+        <img src="Capteur_porte.png" width="100px" alt="Capteur" />
+        <img src="Capteur_présence.png" width="100px" alt="Capteur" />
+        <img src="Capteur_température.png" width="100px" alt="Capteur" />
+        <img src="Capteur_volet.png" width="100px" alt="Capteur" />
+        <img src="Caméra.png" width="100px" alt="Capteur" />
+    </p>
+</div>
+<div class="logo">
+    <img src="ConnectUs.png" width="200" alt="Logo" />
+</div>
