@@ -27,3 +27,10 @@
 <div class="logo">
     <img src="ConnectUs.png" width="200" alt="Logo" />
 </div>
+
+<footer>
+    <div id="Contact    ">
+        <h1>Contactez-nous pour toute question</h1>
+        <p>connectusserviceclient@gmail.com</p>
+    </div>
+</footer>
