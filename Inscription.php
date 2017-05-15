@@ -31,7 +31,7 @@
         <br><label>Confirmation de l'adresse e-mail</label> : <input type="text" name="Confirmation de l'adresse e-mail" /><br>
         <br><label for="pass">Votre mot de passe :</label><input type="password" name="pass" id="pass" /><br>
         <br><label for="pass">Confirmation du mot de passe : </label><input type="password" name="Confirmation du mot de passe" /><br>
-        <br><input type="button" value="Confirmez vos informations">
+        <br><a href="Accueil.php"><input type="button" value="Confirmez vos informations"></a>
         <form method="post" action="traitement.php"><br>
             <label>
                 <br><input type="checkbox" id="validation" value="checkbox1">
