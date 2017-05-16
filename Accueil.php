@@ -18,6 +18,63 @@
     </p>
 </form>
 </div>
+
+    <div class="MiseEnPlaceCapteurs">
+    <p>Ajoutez vos capteurs :</p>
+    <form action="traitementpiece.php" method="post">
+        <p>
+
+            <label>Veuillez précisez le type de pièce</label> : <input type="text" name="type_piece" id="num_piece" value="" /> <br />
+
+            <br><label for="cap1">Quel capteur voulez-vous ajouter ?</label><br />
+
+            <br><select name="cap1" id="cap1">
+                <option value="temperature">Temperature</option>
+                <option value="lumiere">Lumiere</option>
+                <option value="presence">Presence</option>
+                <option value="fumee">Fumee</option>
+                <option value="porte">Porte</option>
+            </select>
+            <br />
+            <select name="cap2" id="cap2">
+                <option value="temperature">Temperature</option>
+                <option value="lumiere">Lumiere</option>
+                <option value="presence">Presence</option>
+                <option value="fumee">Fumee</option>
+                <option value="porte">Porte</option>
+            </select>
+            <br />
+            <select name="cap3" id="cap3">
+                <option value="temperature">Temperature</option>
+                <option value="lumiere">Lumiere</option>
+                <option value="presence">Presence</option>
+                <option value="fumee">Fumee</option>
+                <option value="porte">Porte</option>
+            </select>
+            <br />
+            <select name="cap4" id="cap4">
+                <option value="temperature">Temperature</option>
+                <option value="lumiere">Lumiere</option>
+                <option value="presence">Presence</option>
+                <option value="fumee">Fumee</option>
+                <option value="porte">Porte</option>
+            </select>
+            <br />
+            <select name="cap5" id="cap5">
+                <option value="temperature">Temperature</option>
+                <option value="lumiere">Lumiere</option>
+                <option value="presence">Presence</option>
+                <option value="fumee">Fumee</option>
+                <option value="porte">Porte</option>
+            </select>
+            <br />
+            <br><a href="Piece.php"><input type="submit" value="Valider" /></a>
+        </p>
+    </form>
+    </div>
+    </html>
+
+
 <div class="logo">
     <img src="ConnectUs.png" width="200" alt="Logo" />
 </div>

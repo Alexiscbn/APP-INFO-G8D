@@ -1,6 +1,6 @@
 body {
-    background: url("Fond.png") fixed no-repeat top right, url("ConnectUs.png") fixed;
-    background-size: 110%;
+    /*background: url("Fond.png") fixed no-repeat top right;
+    background-size: 110%;*/
     text-align: center;
 
 }
@@ -44,4 +44,6 @@ h1 {
     padding-top: 10px;
     margin: 125px 425px;
 }
-footer
+.date {
+    border:2px solid black;
+    }

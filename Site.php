@@ -13,12 +13,14 @@
 
 <form method="post" action="traitement.php">
 
+    <div class="date">
+        <?php
+        $date = date("D d M Y");
+        $heure = date("H:i");
+        echo "Nous sommes $date, il est $heure";
+        ?>
+    </div>
 
-    <?php
-    $date = date("d-m-Y");
-    $heure = date("H:i");
-    echo "Nous sommes le $date et il est $heure";
-    ?>
 
     <div class="test">
         <h2>Connectez-vous à votre interface <strong> ConnectUs </strong> pour accéder à vos données personnelles. </h2>
