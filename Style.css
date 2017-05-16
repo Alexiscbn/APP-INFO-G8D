@@ -46,4 +46,7 @@ h1 {
 }
 .date {
     border:2px solid black;
+    width: 300px;
+    align-items: center;
+    margin:auto;
     }

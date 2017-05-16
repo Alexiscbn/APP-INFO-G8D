@@ -20,7 +20,7 @@
 </div>
 
     <div class="MiseEnPlaceCapteurs">
-    <p>Ajoutez vos capteurs :</p>
+        <p><h5>Ajoutez vos capteurs :</h5></p>
     <form action="traitementpiece.php" method="post">
         <p>
 

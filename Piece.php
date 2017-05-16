@@ -28,9 +28,6 @@
 </div>
 </body>
 
-
-
-
 <footer>
     <div id="Contact">
         <h1>Contactez-nous pour toute question</h1>
