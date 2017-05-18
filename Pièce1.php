@@ -8,4 +8,5 @@
 <body>
     <h3>Voici les informations reçues par les capteurs situés dans la chambre</h3>
 
+
 </body>
