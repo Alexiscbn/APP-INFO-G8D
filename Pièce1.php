@@ -8,5 +8,5 @@
 <body>
     <h3>Voici les informations reçues par les capteurs situés dans la chambre</h3>
 
-
+<p>Tous les capteurs sont en marche et fonctionnels</p>
 </body>
