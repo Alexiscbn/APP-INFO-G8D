@@ -1,0 +1,61 @@
+.haut
+{
+    background-color : red;
+    color : white;
+    border-radius : 3px;
+
+}
+
+.cadre
+{
+    width : 135px ;
+
+    border-radius : 3px;
+    background: linear-gradient(to right, #4d4f4f, #b8b7bb);
+}
+
+img
+{
+    width : 40%;
+    height: auto;
+    border: 2px solid black;
+}
+
+.centre
+{
+
+    padding:4px;
+
+}
+
+.bas{
+    background-color : red;
+    color : white;
+    border-top : 1px solid white;
+    border-radius : 3px;
+
+}
+
+.affichage
+{
+
+    margin : auto;
+}
+
+.etat
+{
+    padding-left: 10px;
+
+    margin : auto;
+    color : white;
+    width : 35px;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+
+.imagecentre
+{
+
+    text-align : center;
+
+}
