@@ -3,7 +3,7 @@
 <head>
     <meta charset = "utf-8" />
     <link rel = "stylesheet" href="style2.css"/>
-    <title>Plateforme utilisateur ConnectUs</title>
+    <title>capteurs de presences</title>
 </head>
 
 <header>
@@ -25,21 +25,23 @@
         </section>
     </D>
 </header>
-
 </br></br></br></br>
-<div class="portes">
-    <label><u><b>CAPTEURS D'OUVERTURE DE PORTES</b></u></label></div>
-</br></br></br></br></br></br></br></br></br>
 
-<div class="porte1">
+<div class="fumee">
+    <label><u><b>DETECTEURS DE FUMEE</b></u></label></div>
+<p>
+    </br></br>
+<div class="plage">
+    <label>Plage normal</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    </br></br></br></br></br></br>
+    </br><label>Plage de vigilance</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    </br></br></br></br></br></br>
+    </br><label>Plage d'alarme</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
 
-    <label>porte1</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button></div>
-    </br></br></br></br></br></br></br></br></br></br></br>
-    <div class="porte2">
-        <label>porte2</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button></div>
-
+</div>
+</p>
 <form>
-    </br>
+    </br></br>
     <input type="button" value="Retour" onclick="history.go(-1)">
 </form>
 <div class="logo">

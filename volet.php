@@ -3,30 +3,37 @@
 <head>
     <meta charset = "utf-8" />
     <link rel = "stylesheet" href="style2.css"/>
-    <title>volet</title>
+    <title>Plateforme utilisateur ConnectUs</title>
 </head>
-<div class="devices">
-    <label>Devices</label> </div>
-<div class="stat">
-    <label>Statistiques</label>
-</div>
-<div class="dt">
-    <label>Donnee en temps reel</label>
-</div>
-<div class="donnee_temps_reel">
-    </br></br>
-    <p><label>Donnee en temps reel</label> </p>
-    </br></br></br></br></br>
-</div>
-<div class="voletss">
-
-    <label>volets</label></div>
+<<header>
+    <D>
+        <section>
+            <div class="logo">
+                <img class="logo" src="ConnectUs.png" alt="Logo">
+            </div>
+            <div class="onglets">
+                <nav>
+                    <ul class="menu">
+                        <li class="enCours"><a href="../Vue/Dashboard.php">Données en temps réel</a></li>
+                        <li><a href="Inscription.php">Mes informations</a></li>
+                        <li><a href="">Actionneurs</a></li>
+                        <li><a href="">Statistiques</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </D>
+</header>
+</br></br></br></br>
+<div class="volet">
+    <label><u><b>VOLETS</b></u></label></div>
 </br></br></br>
 <p>
-<div class="volet">
-    <label>volet electrique1</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
-    </br></br></br></br></br></br></br></br></br></br>
-    </br><label>volet electrique2</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+<div class="volets1">
+    <label>volet electrique1 </label>: <button class="onoff" onclick="onoff(this)"><div>off</div></button>
+ </div>   </br></br></br></br></br></br></br></br></br></br></br>
+    <div class="volets2">
+    <label>volet electrique2 </label>: <button class="onoff" onclick="onoff(this)"><div>off</div></button>
 </div>
 </p>
 <form>

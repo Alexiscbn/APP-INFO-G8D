@@ -3,22 +3,32 @@
 <head>
     <meta charset = "utf-8" />
     <link rel = "stylesheet" href="style2.css"/>
-    <title>Capteur de luminosite</title>
+    <title>Capteur de luminosité</title>
 </head>
 
-<body>
-<div class="devices">
-    <label>Devices</label> </div>
-<div class="stat">
-    <label>Statistiques</label>
-</div>
-<div class="dt">
-    <label>Donnee en temps reel</label>
-</div>
-<div class="donnee_temps_reel">
-    </br></br>
-    <p><label>Donnee en temps reel</label> </p>
-</div>
+<header>
+    <D>
+        <section>
+            <div class="logo">
+                <img class="logo" src="ConnectUs.png" alt="Logo">
+            </div>
+            <div class="onglets">
+                <nav>
+                    <ul class="menu">
+                        <li class="enCours"><a href="../Vue/Dashboard.php">Données en temps réel</a></li>
+                        <li><a href="Inscription.php">Mes informations</a></li>
+                        <li><a href="">Actionneurs</a></li>
+                        <li><a href="">Statistiques</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </D>
+</header>
+
+</br></br></br></br>
+<div class="luminosite">
+<label><u><b>CAPTEUR DE LUMINOSITE</b></u></label></div>
 
 
 <div method="post" action="traitement.php">
@@ -27,12 +37,12 @@
     <p>
     <div class="capteur_luminosite">
 
-        <label>luminosite:</label>:<input type="number" name="valeur"/>
+        <label>Niveau de luminosité:</label>:<input type="number" name="valeur"/>
 
     </div>
 </div>
 <form>
-    </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+    </br></br></br></br></br></br></br></br></br></br></br></br>
     <input type="button" value="Retour" onclick="history.go(-1)">
 </form>
 <div class="logo">
@@ -42,7 +52,7 @@
 
 
 
-
+<body>
 
 </form>
 </body>

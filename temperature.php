@@ -3,30 +3,43 @@
 <head>
     <meta charset = "utf-8" />
     <link rel = "stylesheet" href="style2.css"/>
-    <title>Devices</title>
+    <title>Plateforme utilisateur ConnectUs</title>
 </head>
+<header>
+    <D>
+        <section>
+            <div class="logo">
+                <img class="logo" src="ConnectUs.png" alt="Logo">
+            </div>
+            <div class="onglets">
+                <nav>
+                    <ul class="menu">
+                        <li class="enCours"><a href="../Vue/Dashboard.php">Données en temps réel</a></li>
+                        <li><a href="Inscription.php">Mes informations</a></li>
+                        <li><a href="">Actionneurs</a></li>
+                        <li><a href="">Statistiques</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </D>
+</header>
 
 <body>
-<div class="devices">
-    <label>Devices</label> </div>
-<div class="stat">
-    <label>Statistiques</label>
-</div>
-<div class="dt">
-    <label>Donnee en temps reel</label>
-</div>
-<div class="donnee_temps_reel">
-    </br></br>
-    <p><label>Donnee en temps reel</label> </p>
-</div>
+
 </br></br></br></br>
+<div class="temp">
+    <label><u><b>TEMPERATURES</b></u></label></div>
+
+</div>
+</br></br></br>
 <div class="temp_int">
-    <label>temperature interieur</label> : <input type="number" name="valeur" /></div>
+    <label>température interieure</label> : <input type="number" name="valeur" /></div>
 
 
 
 <div method="post" action="traitement.php">
-    </br></br></br></br></br></br>
+    </br></br></br>
 
     <p>
     <div class="temperatures">
