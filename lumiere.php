@@ -3,7 +3,7 @@
 <head>
     <meta charset = "utf-8" />
     <link rel = "stylesheet" href="style2.css"/>
-    <title>Capteur de luminosite</title>
+    <title>Capteur de luminosité</title>
 </head>
 
 <header>
@@ -37,7 +37,7 @@
 </div>
 <div class="donnee_temps_reel">
     </br></br>
-    <p><label>Donnee en temps reel</label> </p>
+    <p><label>Données en temps reel</label> </p>
 </div>
 
 
@@ -47,7 +47,7 @@
     <p>
     <div class="capteur_luminosite">
 
-        <label>luminosite:</label>:<input type="number" name="valeur"/>
+        <label>Luminosité:</label>:<input type="number" name="valeur"/>
 
     </div>
 </div>
