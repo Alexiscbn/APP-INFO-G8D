@@ -29,15 +29,15 @@
     </br></br></br></br></br></br>
 
     <p>
-    <div class="temperature">
+    <div class="temperatures">
 
         <form action="site" method="post">
 
         </form><label>radiateur 1</label>:<input type="number" name="valeur1"/><INPUT TYPE="submit"name="valeur1" VALUE="valider">
         </br></br></br></br></br></br>
-        </br><label>radiateur 2</label>:<input type="number" name="valeur2"/>
+        </br><label>radiateur 2</label>:<input type="number" name="valeur2"/><INPUT TYPE="submit"name="valeur1" VALUE="valider">
         </br></br></br></br></br></br>
-        </br><label>radiateur 3</label>:<input type="number" name="valeur3"/>
+        </br><label>radiateur 3</label>:<input type="number" name="valeur3"/><INPUT TYPE="submit"name="valeur1" VALUE="valider">
     </div>
 </div>
 </form>
