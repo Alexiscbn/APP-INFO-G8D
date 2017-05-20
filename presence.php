@@ -3,7 +3,7 @@
 <head>
     <meta charset = "utf-8" />
     <link rel = "stylesheet" href="style2.css"/>
-    <title>capteurs de presences</title>
+    <title>Capteurs de présence</title>
 </head>
 
 <header>
@@ -27,16 +27,16 @@
 </header>
 
 <div class="presence">
-    <label>capteurs de presences</label></div>
+    <label>Capteurs de présence</label></div>
 <p>
 <div class="capteur_de_presences">
-    <label>Detection d un individu: camera chambre </label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    <label>Détection d'un individu : caméra chambre </label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
     </br></br></br></br></br></br>
-    </br><label>Detection d un individu: camera cuisine</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    </br><label>Détection d'un individu : caméra cuisine</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
     </br></br></br></br></br></br>
-    </br><label>Detection d un individu: camera piece principale</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    </br><label>Détection d'un individu : caméra pièce principale</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
     </br></br></br></br></br></br>
-    </br><label>Detection d un individu: camera entree</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    </br><label>Détection d'un individu : caméra entrée</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
 </div>
 </p>
 <form>
