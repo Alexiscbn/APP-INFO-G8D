@@ -2,13 +2,13 @@
 <!DOCTYPE HTML>
 <head>
     <meta charset = "utf-8" />
-    <link rel = "stylesheet" href="style.css"/>
+    <link rel = "stylesheet" href="Style.css"/>
     <title>Plateforme utilisateur ConnectUs</title>
 </head>
 
 
 <body>
-<img src="ConnectUs.png" alt="Logo" />
+<img src="../ConnectUs.png" alt="Logo" />
 
 
 <form method="post" action="traitement.php">
@@ -37,7 +37,17 @@
     </div>
 </form>
 
-/* FAIRE FOOTER */
+<footer>
+            <p>
+                <span class="gauche"><div class="logo">
+                <img class="logo" src="../ConnectUs.png" alt="Logo">
+                    </div></span>
+                <a href="">Mentions Légales</a>
+                <span class="centre">ConnectUs est une start-up révolutionnaire permettant à chacun de ses utilisateurs
+        d'avoir une <br>vision globale de tous les instants de son habitation connectée grâce aux systèmes DomIsep </span>
+            </p>
+</footer>
+
 
 
 </body>

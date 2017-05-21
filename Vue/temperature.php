@@ -9,7 +9,7 @@
     <D>
         <section>
             <div class="logo">
-                <img class="logo" src="ConnectUs.png" alt="Logo">
+                <img class="logo" src="../ConnectUs.png" alt="Logo">
             </div>
             <div class="onglets">
                 <nav>
@@ -29,12 +29,12 @@
 
 </br></br></br></br>
 <div class="temp">
-    <label><u><b>TEMPERATURES</b></u></label></div>
+    <label><u><b>TEMPERATURE</b></u></label></div>
 
 </div>
 </br></br></br>
 <div class="temp_int">
-    <label>température interieure</label> : <input type="number" name="valeur" /></div>
+    <label>Température interieure</label> : <input type="number" name="valeur" /></div>
 
 
 
@@ -46,11 +46,11 @@
 
         <form action="site" method="post">
 
-        </form><label>radiateur 1</label>:<input type="number" name="valeur1"/><INPUT TYPE="submit"name="valeur1" VALUE="valider">
+        </form><label>Radiateur 1 </label>:<input type="number" name="valeur1"/>°C<INPUT TYPE="submit"name="valeur1" VALUE="valider">
         </br></br></br></br></br></br>
-        </br><label>radiateur 2</label>:<input type="number" name="valeur2"/><INPUT TYPE="submit"name="valeur1" VALUE="valider">
+        </br><label>Radiateur 2 </label>:<input type="number" name="valeur2"/>°C<INPUT TYPE="submit"name="valeur1" VALUE="valider">
         </br></br></br></br></br></br>
-        </br><label>radiateur 3</label>:<input type="number" name="valeur3"/><INPUT TYPE="submit"name="valeur1" VALUE="valider">
+        </br><label>Radiateur 3 </label>:<input type="number" name="valeur3"/>°C<INPUT TYPE="submit"name="valeur1" VALUE="valider">
     </div>
 </div>
 </form>
@@ -59,7 +59,7 @@
     <input type="button" value="Retour" onclick="history.go(-1)">
 </form>
 <div class="logo">
-    <img src="ConnectUs.png" width="200" alt="Logo" />
+    <img src="../ConnectUs.png" width="200" alt="Logo" />
 </div>
 </form>
 

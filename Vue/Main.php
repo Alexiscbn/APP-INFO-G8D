@@ -10,7 +10,7 @@
     <D>
         <section>
             <div class="logo">
-                <img class="logo" src="ConnectUs.png" alt="Logo">
+                <img class="logo" src="../ConnectUs.png" alt="Logo">
             </div>
             <div class="onglets">
                 <nav>
@@ -32,7 +32,7 @@
             <div class="haut"> <p class="affichage">Détecteur de fumée</p></div>
             <div class="centre">
                 <p class="imagecentre">
-                    <img src="Capteur_fumée.png" alt="detecteur"/>
+                    <img src="../Capteur_fumée.png" alt="detecteur"/>
                 </p>
                 <p class="etat">0%</p>
             </div>
@@ -46,7 +46,7 @@
             <div class="haut"> <p class="affichage">Température globale dans la maison</p></div>
             <div class="centre">
                 <div class="imagecentre">
-                    <img src="Capteur_température.png" alt="Température"/>
+                    <img src="../Capteur_température.png" alt="Température"/>
                 </div>
                 <p class="etat">19 degrés</p>
                 <div class="température">
@@ -77,7 +77,7 @@
             <div class="haut"> <p class="affichage">Capteur d'ouverture de volet</p></div>
             <div class="centre">
                 <p class="imagecentre">
-                    <img src="Capteur_volet.png" alt="Volet"/>
+                    <img src="../Capteur_volet.png" alt="Volet"/>
                 </p>
                 <p class="etat">Ouvert</p>
                 <form method="post" action="mode.php">
@@ -91,4 +91,6 @@
         </div>
     </section3>
     </body>
+
+
 </html>

@@ -11,7 +11,7 @@
     <D>
         <section>
             <div class="logo">
-                <img class="logo" src="ConnectUs.png" alt="Logo">
+                <img class="logo" src="../ConnectUs.png" alt="Logo">
             </div>
                 <div class="onglets">
                     <nav>
@@ -30,16 +30,16 @@
 
 <div class="presence">
 
-    <label>Capteurs de présence</label></div>
+    <label><u>Capteurs de présence</u></label></div>
     </br></br>
 <div class="capteur_de_presences">
-    <label>Détection d'un individu : caméra chambre </label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    <label>Détection d'un individu : Caméra chambre </label>:<button class="onoff" onclick="onoff(this)"><div>On</div></button>
     </br></br></br></br></br></br>
-    </br><label>Détection d'un individu : caméra cuisine</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    </br><label>Détection d'un individu : Caméra cuisine</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
     </br></br></br></br></br></br>
-    </br><label>Détection d'un individu : caméra pièce principale</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    </br><label>Détection d'un individu : Caméra pièce principale</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
     </br></br></br></br></br></br>
-    </br><label>Détection d'un individu : caméra entrée</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    </br><label>Détection d'un individu : Caméra entrée</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
 </div>
 </p>
 <form>
@@ -47,7 +47,7 @@
     <input type="button" value="Retour" onclick="history.go(-1)">
 </form>
 <div class="logo">
-    <img src="ConnectUs.png" width="200" alt="Logo" />
+    <img src="../ConnectUs.png" width="200" alt="Logo" />
 </div>
 </form>
 

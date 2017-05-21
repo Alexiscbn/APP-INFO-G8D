@@ -11,7 +11,7 @@
     <D>
         <section>
             <div class="logo">
-                <img class="logo" src="ConnectUs.png" alt="Logo">
+                <img class="logo" src="../ConnectUs.png" alt="Logo">
             </div>
             <div class="onglets">
                 <nav>
@@ -157,7 +157,7 @@
         <span class="centre">ConnectUs</span>
         <span class="droite">Mentions Légales</span>
         <span class="gauche">ConnectUs est une start-up révolutionnaire permettant à chacun de ses utilisateurs
-        d'avoir une vision globale de tous les instants de son habitation connectée grâce aux systèmes DomIsep </span>
+        d'avoir une <br>vision globale de tous les instants de son habitation connectée grâce aux systèmes DomIsep </span>
     </p>
 
 </footer>

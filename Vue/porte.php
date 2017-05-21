@@ -10,7 +10,7 @@
     <D>
         <section>
             <div class="logo">
-                <img class="logo" src="ConnectUs.png" alt="Logo">
+                <img class="logo" src="../ConnectUs.png" alt="Logo">
             </div>
             <div class="onglets">
                 <nav>
@@ -33,17 +33,17 @@
 
 <div class="porte1">
 
-    <label>porte1</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button></div>
+    <label>Porte principale </label>:<button class="onoff" onclick="onoff(this)"><div>Fermée</div></button></div>
     </br></br></br></br></br></br></br></br></br></br></br>
     <div class="porte2">
-        <label>porte2</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button></div>
+        <label>Porte secondaire </label>:<button class="onoff" onclick="onoff(this)"><div>Fermée</div></button></div>
 
 <form>
     </br>
     <input type="button" value="Retour" onclick="history.go(-1)">
 </form>
 <div class="logo">
-    <img src="ConnectUs.png" width="200" alt="Logo" />
+    <img src="../ConnectUs.png" width="200" alt="Logo" />
 </div>
 </form>
 

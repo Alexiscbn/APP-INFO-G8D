@@ -1,15 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset = "utf-8" />
     <link rel = "stylesheet" href="style2.css"/>
-    <title>Plateforme utilisateur ConnectUs</title>
+    <title>Capteur de luminosité</title>
 </head>
-<<header>
+
+<header>
     <D>
         <section>
             <div class="logo">
-                <img class="logo" src="ConnectUs.png" alt="Logo">
+                <img class="logo" src="../ConnectUs.png" alt="Logo">
             </div>
             <div class="onglets">
                 <nav>
@@ -24,28 +25,35 @@
         </section>
     </D>
 </header>
+
 </br></br></br></br>
-<div class="volet">
-    <label><u><b>VOLETS</b></u></label></div>
-</br></br></br>
-<p>
-<div class="volets1">
-    <label>volet electrique1 </label>: <button class="onoff" onclick="onoff(this)"><div>off</div></button>
- </div>   </br></br></br></br></br></br></br></br></br></br></br>
-    <div class="volets2">
-    <label>volet electrique2 </label>: <button class="onoff" onclick="onoff(this)"><div>off</div></button>
+<div class="luminosite">
+<label><u><b>CAPTEUR DE LUMINOSITE</b></u></label></div>
+
+
+<div method="post" action="traitement.php">
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+    <p>
+    <div class="capteur_luminosite">
+
+        <label>Niveau de luminosité </label>:<input type="number" name="valeur" placeholder="Ex : 78%"/>
+
+    </div>
 </div>
-</p>
 <form>
-    </br></br></br></br>
+    </br></br></br></br></br></br></br></br></br></br></br></br>
     <input type="button" value="Retour" onclick="history.go(-1)">
 </form>
 <div class="logo">
-    <img src="ConnectUs.png" width="200" alt="Logo" />
+    <img src="../ConnectUs.png" width="200" alt="Logo" />
 </div>
 </form>
 
+
+
 <body>
 
+</form>
 </body>
 </html>

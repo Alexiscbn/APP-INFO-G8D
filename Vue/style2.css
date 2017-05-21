@@ -1,6 +1,227 @@
+
+.dt
+{
+    text-align:center;
+    width: 350px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+
+
+
+}
+.devices
+{
+    text-align:left;
+    width: 300px;
+    display: inline;
+    border: 3px solid black;
+    margin: auto;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+.stat
+{
+    text-align:left;
+    width: 200px;
+    display: inline;
+    border: 3px solid black;
+    margin: auto;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.temperatures
+{
+    text-align:center;
+    width: 350px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+.temp
+{
+    text-align:center;
+    width: 200px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+.temp_int
+{
+    text-align:center;
+    width: 750px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.logo {
+    text-align: right;
+    width: 1400px;
+}
+
+
+.volet
+{
+    text-align:center;
+    width: 200px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.volets1
+{
+    text-align: center;
+    width: 350px;
+    border: 3px solid black;
+    margin: auto;
+    background-color:rgba(255,255,255,0.8);
+    padding: 1px;
+    padding-bottom: 5px;
+
+}
+.volets2
+{
+    text-align: center;
+    width: 350px;
+    border: 3px solid black;
+    margin: auto;
+    background-color:rgba(255,255,255,0.8);
+    padding: 1px;
+    padding-bottom: 5px;
+
+}
+
+
+.portes
+{
+    text-align:center;
+    width: 350px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+
+
+}
+.porte1
+{
+    text-align:center;
+    width: 400px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+
+.porte2
+{
+    text-align:center;
+    width: 400px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+.donnee_temps_reel {
+    text-align: center;
+    width: 750px;
+    font-size: 30px;
+
+
+}
+.fumee
+{
+    text-align:center;
+    width: 500px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+.plage
+{
+    text-align:center;
+    width: 400px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+.capteur_de_presences
+{
+    text-align:center;
+    width: 500px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+.presence
+{
+    text-align:center;
+    width: 300px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.capteur_luminosite
+{
+    text-align:center;
+    width: 400px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+.luminosite
+{
+    text-align:center;
+    width: 350px;
+    margin: auto;
+    border: 3px solid black;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+
 body {
-    /*background: url("Fond.png") fixed no-repeat top right;
-    background-size: 110%;*/
+    background: url("../Fond.png") fixed no-repeat top right;
+    background-size: 110%;
     text-align: center;
 
 }
@@ -40,7 +261,7 @@ h1 {
     width: 300px;
     align-items: center;
     margin:auto;
-    }
+}
 
 
 header{
@@ -78,10 +299,70 @@ D{
 }
 
 a:focus {
-    color : rgba(0, 197, 85, 0.8);
+    color: rgba(0, 197, 85, 0.8);
     text-decoration: none;
+}
+
+.haut
+{
+    background-color : red;
+    color : white;
+    border-radius : 3px;
 
 }
+
+.cadre
+{
+    width : 135px ;
+
+    border-radius : 3px;
+    background: linear-gradient(to right, #4d4f4f, #b8b7bb);
+}
+
+img
+{
+    width : 40%;
+    height: auto;
+    border: 2px solid black;
+}
+
+.centre
+{
+
+    padding:4px;
+
+}
+
+.bas{
+    background-color : red;
+    color : white;
+    border-top : 1px solid white;
+    border-radius : 3px;
+
+}
+
+.affichage {
+
+    margin: auto;
+}
+
+.etat
+{
+    padding-left: 10px;
+    margin : auto;
+    color : white;
+    width : 35px;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+
+.imagecentre
+{
+
+    text-align : center;
+
+}
+
 .enCours a {
     text-decoration: none;
     color:white;

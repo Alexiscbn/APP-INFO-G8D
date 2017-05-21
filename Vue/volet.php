@@ -1,16 +1,15 @@
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/html">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset = "utf-8" />
     <link rel = "stylesheet" href="style2.css"/>
-    <title>Capteur de luminosité</title>
+    <title>Plateforme utilisateur ConnectUs</title>
 </head>
-
-<header>
+<<header>
     <D>
         <section>
             <div class="logo">
-                <img class="logo" src="ConnectUs.png" alt="Logo">
+                <img class="logo" src="../ConnectUs.png" alt="Logo">
             </div>
             <div class="onglets">
                 <nav>
@@ -25,34 +24,28 @@
         </section>
     </D>
 </header>
-
 </br></br></br></br>
-<div class="luminosite">
-<label><u><b>CAPTEUR DE LUMINOSITE</b></u></label></div>
-
-
-<div method="post" action="traitement.php">
-    </br></br></br></br></br></br></br></br></br></br></br></br></br>
-
-    <p>
-    <div class="capteur_luminosite">
-
-        <label>Niveau de luminosité:</label>:<input type="number" name="valeur"/>
-
-    </div>
+<div class="volet">
+    <label><u><b>VOLETS</b></u></label></div>
+</br></br></br>
+<p>
+<div class="volets1">
+    <label>Volet electrique 1 </label>: <button class="onoff" onclick="onoff(this)"><div>Fermé</div></button>
+ </div>   </br></br></br></br></br></br></br></br></br></br></br>
+    <div class="volets2">
+    <label>Volet electrique 2 </label>: <button class="onoff" onclick="onoff(this)"><div>Fermé</div></button>
 </div>
+</p>
 <form>
-    </br></br></br></br></br></br></br></br></br></br></br></br>
+    </br></br></br></br>
     <input type="button" value="Retour" onclick="history.go(-1)">
 </form>
 <div class="logo">
-    <img src="ConnectUs.png" width="200" alt="Logo" />
+    <img src="../ConnectUs.png" width="200" alt="Logo" />
 </div>
 </form>
 
-
-
 <body>
 
-</form>
 </body>
+</html>
