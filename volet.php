@@ -3,7 +3,7 @@
 <head>
     <meta charset = "utf-8" />
     <link rel = "stylesheet" href="style2.css"/>
-    <title>volet</title>
+    <title>Plateforme utilisateur ConnectUs</title>
 </head>
 <<header>
     <D>
@@ -24,14 +24,16 @@
         </section>
     </D>
 </header>
-
-    <label>volets</label></div>
+</br></br></br></br>
+<div class="volet">
+    <label><u><b>VOLETS</b></u></label></div>
 </br></br></br>
 <p>
-<div class="volet">
-    <label>volet electrique1</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
-    </br></br></br></br></br></br></br></br></br></br>
-    </br><label>volet electrique2</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+<div class="volets1">
+    <label>volet electrique1 </label>: <button class="onoff" onclick="onoff(this)"><div>off</div></button>
+ </div>   </br></br></br></br></br></br></br></br></br></br></br>
+    <div class="volets2">
+    <label>volet electrique2 </label>: <button class="onoff" onclick="onoff(this)"><div>off</div></button>
 </div>
 </p>
 <form>

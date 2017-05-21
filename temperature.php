@@ -3,10 +3,8 @@
 <head>
     <meta charset = "utf-8" />
     <link rel = "stylesheet" href="style2.css"/>
-    <title>Devices</title>
+    <title>Plateforme utilisateur ConnectUs</title>
 </head>
-
-<body>
 <header>
     <D>
         <section>
@@ -26,13 +24,22 @@
         </section>
     </D>
 </header>
+
+<body>
+
+</br></br></br></br>
+<div class="temp">
+    <label><u><b>TEMPERATURES</b></u></label></div>
+
+</div>
+</br></br></br>
 <div class="temp_int">
-    <label>temperature interieur</label> : <input type="number" name="valeur" /></div>
+    <label>température interieure</label> : <input type="number" name="valeur" /></div>
 
 
 
 <div method="post" action="traitement.php">
-    </br></br></br></br></br></br>
+    </br></br></br>
 
     <p>
     <div class="temperatures">

@@ -26,19 +26,9 @@
     </D>
 </header>
 
-<body>
-<div class="devices">
-    <label>Devices</label> </div>
-<div class="stat">
-    <label>Statistiques</label>
-</div>
-<div class="dt">
-    <label>Donnee en temps reel</label>
-</div>
-<div class="donnee_temps_reel">
-    </br></br>
-    <p><label>Données en temps reel</label> </p>
-</div>
+</br></br></br></br>
+<div class="luminosite">
+<label><u><b>CAPTEUR DE LUMINOSITE</b></u></label></div>
 
 
 <div method="post" action="traitement.php">
@@ -47,12 +37,12 @@
     <p>
     <div class="capteur_luminosite">
 
-        <label>Luminosité:</label>:<input type="number" name="valeur"/>
+        <label>Niveau de luminosité:</label>:<input type="number" name="valeur"/>
 
     </div>
 </div>
 <form>
-    </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+    </br></br></br></br></br></br></br></br></br></br></br></br>
     <input type="button" value="Retour" onclick="history.go(-1)">
 </form>
 <div class="logo">
@@ -62,7 +52,7 @@
 
 
 
-
+<body>
 
 </form>
 </body>

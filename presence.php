@@ -3,6 +3,7 @@
 <head>
     <meta charset = "utf-8" />
     <link rel = "stylesheet" href="style2.css"/>
+
     <title>Capteurs de présence</title>
 </head>
 
@@ -12,23 +13,25 @@
             <div class="logo">
                 <img class="logo" src="ConnectUs.png" alt="Logo">
             </div>
-            <div class="onglets">
-                <nav>
-                    <ul class="menu">
-                        <li class="enCours"><a href="../Vue/Dashboard.php">Données en temps réel</a></li>
-                        <li><a href="Inscription.php">Mes informations</a></li>
-                        <li><a href="">Actionneurs</a></li>
-                        <li><a href="">Statistiques</a></li>
-                    </ul>
-                </nav>
-            </div>
+                <div class="onglets">
+                    <nav>
+                        <ul class="menu">
+                            <li class="enCours"><a href="../Vue/Dashboard.php">Données en temps réel</a></li>
+                            <li><a href="Inscription.php">Mes informations</a></li>
+                            <li><a href="">Actionneurs</a></li>
+                            <li><a href="">Statistiques</a></li>
+                        </ul>
+                    </nav>
+                </div>
         </section>
     </D>
 </header>
+</br></br></br></br>
 
 <div class="presence">
+
     <label>Capteurs de présence</label></div>
-<p>
+    </br></br>
 <div class="capteur_de_presences">
     <label>Détection d'un individu : caméra chambre </label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
     </br></br></br></br></br></br>
@@ -40,7 +43,7 @@
 </div>
 </p>
 <form>
-    </br></br></br></br>
+    </br></br>
     <input type="button" value="Retour" onclick="history.go(-1)">
 </form>
 <div class="logo">
