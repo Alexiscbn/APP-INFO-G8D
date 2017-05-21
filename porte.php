@@ -1,7 +1,8 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset = "utf-8" />
-    <link rel = "stylesheet" href="style.css"/>
+    <link rel = "stylesheet" href="style2.css"/>
     <title>Plateforme utilisateur ConnectUs</title>
 </head>
 
@@ -25,13 +26,28 @@
     </D>
 </header>
 
+</br></br></br></br>
+<div class="portes">
+    <label><u><b>CAPTEURS D'OUVERTURE DE PORTES</b></u></label></div>
+</br></br></br></br></br></br></br></br></br>
+
+<div class="porte1">
+
+    <label>porte1</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button></div>
+    </br></br></br></br></br></br></br></br></br></br></br>
+    <div class="porte2">
+        <label>porte2</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button></div>
+
+<form>
+    </br>
+    <input type="button" value="Retour" onclick="history.go(-1)">
+</form>
+<div class="logo">
+    <img src="ConnectUs.png" width="200" alt="Logo" />
+</div>
+</form>
+
 <body>
-    <h3>Voici les informations reçues par les capteurs situés dans la chambre</h3>
 
-<p>Tous les capteurs sont en marche et fonctionnels
-
-Voici les informations renvoyées par tous les capteurs situés dans la chambre :
-    Il fait actuellement 18 degrés, la fenêtre est vérrouillée. Les volets sont ouverts et les valeurs reçues pas les detecteurs
-    de fumée et de CO2 sont parfaitement normales.
-</p>
 </body>
+</html>
