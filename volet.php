@@ -29,11 +29,21 @@
     <label><u><b>VOLETS</b></u></label></div>
 </br></br></br>
 <p>
-<div class="volets1">
-    <label>volet electrique1 </label>: <button class="onoff" onclick="onoff(this)"><div>off</div></button>
+<div class="volet1">
+    <label>volet electrique1 </label>:
+<p class="etat">Ouvert</p>
+<form method="post" action="mode.php">
+    <select name="Volet" id="Volet">
+        <option value="Ouvrir">Ouvrir</option>
+        <option value="Fermer">Fermer</option></select></p>
  </div>   </br></br></br></br></br></br></br></br></br></br></br>
-    <div class="volets2">
-    <label>volet electrique2 </label>: <button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    <div class="volet2">
+    <label>volet electrique2 </label>
+        <p class="etat">Ouvert</p>
+        <form method="post" action="mode.php">
+            <select name="Volet" id="Volet">
+                <option value="Ouvrir">Ouvrir</option>
+                <option value="Fermer">Fermer</option></select></p>
 </div>
 </p>
 <form>
