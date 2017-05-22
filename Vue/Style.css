@@ -1,6 +1,6 @@
 body {
-    /*background: url("Fond.png") fixed no-repeat top right;
-    background-size: 110%;*/
+    background: url("Fond.png") fixed no-repeat top right;
+    background-size: 110%;
     text-align: center;
 
 }
@@ -126,7 +126,7 @@ nav{
 }
 
 .logo{
-    float: left;
+    float: right;
     width: 20%;
     height: 100%;
     margin:0;
