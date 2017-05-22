@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset = "utf-8" />
-    <link rel = "stylesheet" href="style2.css"/>
-    <title>Plateforme utilisateur ConnectUs</title>
+    <link rel = "stylesheet" href="../style2.css"/>
+    <title>capteurs de presences</title>
 </head>
-<<header>
+
+<header>
     <D>
         <section>
             <div class="logo">
@@ -25,19 +26,22 @@
     </D>
 </header>
 </br></br></br></br>
-<div class="volet">
-    <label><u><b>VOLETS</b></u></label></div>
-</br></br></br>
+
+<div class="fumee">
+    <label><u><b>DETECTEURS DE FUMEE</b></u></label></div>
 <p>
-<div class="volets1">
-    <label>Volet electrique 1 </label>: <button class="onoff" onclick="onoff(this)"><div>Fermé</div></button>
- </div>   </br></br></br></br></br></br></br></br></br></br></br>
-    <div class="volets2">
-    <label>Volet electrique 2 </label>: <button class="onoff" onclick="onoff(this)"><div>Fermé</div></button>
+    </br></br>
+<div class="plage">
+    <label>Plage normal</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    </br></br></br></br></br></br>
+    </br><label>Plage de vigilance</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+    </br></br></br></br></br></br>
+    </br><label>Plage d'alarme</label>:<button class="onoff" onclick="onoff(this)"><div>off</div></button>
+
 </div>
 </p>
 <form>
-    </br></br></br></br>
+    </br></br>
     <input type="button" value="Retour" onclick="history.go(-1)">
 </form>
 <div class="logo">

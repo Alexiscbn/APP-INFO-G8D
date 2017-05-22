@@ -48,7 +48,7 @@
 
 <footer>
     <div id="Contact">
-        <h1>Contactez-nous pour toute question</h1>
+        <h4>Contactez-nous pour toute question</h4>
         <p>connectusserviceclient@gmail.com</p>
     </div>
     <div class="logo">

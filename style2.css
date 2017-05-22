@@ -220,7 +220,7 @@
 }
 
 body {
-    background: url("Fond.png") fixed no-repeat top right;
+    background: url("Vue/Fond.png") fixed no-repeat top right;
     background-size: 110%;
     text-align: center;
 

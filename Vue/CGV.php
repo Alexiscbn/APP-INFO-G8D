@@ -9,7 +9,7 @@
     <D>
         <section>
             <div class="logo">
-                <img class="logo" src="ConnectUs.png" alt="Logo">
+                <img class="logo" src="../ConnectUs.png" alt="Logo">
             </div>
             <div class="onglets">
                 <nav>

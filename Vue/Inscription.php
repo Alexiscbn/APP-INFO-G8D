@@ -9,7 +9,7 @@
     <D>
         <section>
             <div class="logo">
-                <img class="logo" src="ConnectUs.png" alt="Logo">
+                <img class="logo" src="../ConnectUs.png" alt="Logo">
             </div>
             <div class="onglets">
                 <nav>
@@ -61,5 +61,5 @@
     </p>
 </form>
 <div class="logo">
-    <img src="ConnectUs.png" width="200" alt="Logo" />
+    <img src="../ConnectUs.png" width="200" alt="Logo" />
 </div>
