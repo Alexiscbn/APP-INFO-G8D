@@ -34,7 +34,34 @@
 </div>
 </br></br></br>
 <div class="temp_int">
+
     <label>Température interieure</label> : <input type="number" name="valeur" /></div>
+
+
+    <?php
+    $dsn = 'mysql:host=localhost';
+    $user = 'root';
+    $password = 'root';
+    try
+    {
+        $bdd = new PDO('mysql:host=localhost;dbname=manipulation;charset=utf8', 'root', 'root');
+        $dbh = new PDO($dsn, $user, $password);
+        $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    }
+    catch (Exception $e)
+    {
+        die('Erreur : ' . $e->getMessage());
+    }
+
+    $requete = $bdd->query('SELECT nom_capteur, val_capteur, etat_capteur FROM capteur WHERE nom_capteur = \'ctemperature\' ');
+    while ($donnees = $requete->fetch())
+    {
+        echo 'La température actuelle est de ' . $donnees['val_capteur'] .  ' : Etat (' . $donnees['etat_capteur'] . ')';
+    }
+    ?>
+    <br />
+    <label>température interieure</label> : <input type="number" name="valeur" /></div>
+
 
 
 

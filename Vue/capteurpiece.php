@@ -5,7 +5,7 @@
     Ajoutez/modifiez vos capteurs :
 
 </p>
-<form action="../traitementpiece2.php" method="post">
+<form action="../Contrôleur/traitementpiece2.php" method="post">
     <p>
 
         <label>Veuillez précisez le numéro de la pièce</label> : <input type="text" name="num_piece" id="num_piece" /> <br />

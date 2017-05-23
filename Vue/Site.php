@@ -29,7 +29,7 @@
         <input type="password" name="Mot de passe" /></br>
 
     </br>
-        <a href="Piece.php"> <input type="button" value="Connexion"></a>
+        <a href="Main.php"> <input type="button" value="Connexion"></a>
         <a href="Inscription.php"><input type="button" value="S'inscrire"></a>
     </br><input type="button" value="Aide">
     </br><input type="button" value="Contactez-nous">

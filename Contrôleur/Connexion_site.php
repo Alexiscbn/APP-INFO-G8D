@@ -23,4 +23,4 @@ function verif_mdp($mot_de_passe) {
     } else {
         $verif = 'Le mot de passe est incorrecte';
     }
-    return $verif ;
+    return $verif ;}

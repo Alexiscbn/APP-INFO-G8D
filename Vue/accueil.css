@@ -3,7 +3,9 @@
     color: white;
     border-radius: 3px;
 }
-
+.cadre{
+    padding:10px;
+}
 D{
     display: flex;
     background-color: black;
@@ -106,4 +108,19 @@ nav{
 {
 
     text-align: center;
+}
+
+
+.meteo {
+    border-radius: 20px;
+    width: auto;
+    height: 350px;
+    border: 2px solid white;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    horizontal-align: middle;
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
 }
