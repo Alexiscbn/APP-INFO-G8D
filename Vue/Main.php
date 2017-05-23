@@ -26,13 +26,14 @@
     </D>
 </header>
 
+<h2>Vue globale de votre habitation</h2>
     <body>
     <section1>
         <div class="cadre">
-            <div class="haut"> <p class="affichage">Détecteur de fumée</p></div>
+            <div class="haut"> <p class="affichage"><u>Détecteur de fumée</u></p></div>
             <div class="centre">
                 <p class="imagecentre">
-                    <img src="../Capteur_fumée.png" alt="detecteur"/>
+                    <img src="Capteur_fumée.png" alt="detecteur"/>
                 </p>
                 <p class="etat">0%</p>
             </div>
@@ -43,10 +44,10 @@
     </section1>
     <section2>
         <div class="cadre">
-            <div class="haut"> <p class="affichage">Température globale dans la maison</p></div>
+            <div class="haut"> <p class="affichage"><u>Température globale dans la maison</u></p></div>
             <div class="centre">
                 <div class="imagecentre">
-                    <img src="../Capteur_température.png" alt="Température"/>
+                    <img src="Capteur_température.png" alt="Température"/>
                 </div>
                 <p class="etat">19 degrés</p>
                 <div class="température">
@@ -74,10 +75,10 @@
     </section2>
     <section3>
         <div class="cadre">
-            <div class="haut"> <p class="affichage">Capteur d'ouverture de volet</p></div>
+            <div class="haut"> <p class="affichage"><u>Capteur d'ouverture de volet</u></p></div>
             <div class="centre">
                 <p class="imagecentre">
-                    <img src="../Capteur_volet.png" alt="Volet"/>
+                    <img src="Capteur_volet.png" alt="Volet"/>
                 </p>
                 <p class="etat">Ouvert</p>
                 <form method="post" action="mode.php">
@@ -90,6 +91,27 @@
             </div>
         </div>
     </section3>
+
+    <section4>
+        <div class="meteo">
+            <div id="cont_NzUwNTZ8NHwyfDR8MnxGRkZGRkZ8MXw2NjY2NjZ8Y3wx">
+                <div id="spa_NzUwNTZ8NHwyfDR8MnxGRkZGRkZ8MXw2NjY2NjZ8Y3wx">
+                    <a id="a_NzUwNTZ8NHwyfDR8MnxGRkZGRkZ8MXw2NjY2NjZ8Y3wx"
+                       href="http://www.meteocity.com/france/paris_v75056/" target="_blank"
+                       style="color:#333;text-decoration:none;">
+                        Météo Paris</a> ©
+                    <a href="http://www.meteocity.com">meteocity.com</a>
+                </div>
+                <script type="text/javascript"
+                        src="http://widget.meteocity.com/js/NzUwNTZ8NHwyfDR8MnxGRkZGRkZ8MXw2NjY2NjZ8Y3wx">
+                </script>
+            </div>
+        </div>
+    </section4>
+
+    <footer>
+
+    </footer>
     </body>
 
 
